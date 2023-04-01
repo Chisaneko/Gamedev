@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: "Game";
+    src: url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+}
+
+#gameTitle{
+    font-family:'Cute Font', cursive;
+    color:rgba(167, 45, 112, 0.541);
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px rgba(24, 139, 115, 0.541);
+    text-shadow: -2px -2px rgba(19, 17, 131, 0.541);
+    margin-top: -50px;
+}
+
+canvas{
+    border: 4px solid rgba(167, 45, 112, 0.541);
+    background-image: url(./Images/space.png);
+    position: absolute;
+    top: 0px; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 0px; 
+    margin: auto;
+}
