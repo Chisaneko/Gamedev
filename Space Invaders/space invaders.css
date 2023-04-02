@@ -14,9 +14,10 @@
     margin-top: -50px;
 }
 
-canvas{
-    border: 4px solid rgba(167, 45, 112, 0.541);
-    background-image: url(./Images/space.png);
+.container {
+    overflow: hidden;
+    height: 500px;
+    width: 400px;
     position: absolute;
     top: 0px; 
     left: 0px; 
@@ -24,3 +25,61 @@ canvas{
     bottom: 0px; 
     margin: auto;
 }
+
+.slide {
+    background: url(Images/space.png) repeat-y;
+    height: 1000px;
+    width: 500px;
+    animation: slide 20s linear infinite;
+    z-index: -10px;
+
+}
+
+@keyframes slide{
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(0, -500px, 0);
+    }
+  }
+
+canvas{
+    border: 4px solid rgba(167, 45, 112, 0.541);
+    position: absolute;
+    top: 0px; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 0px; 
+    margin: auto;
+    z-index:1;
+    
+}
+
+#myScore,#maxScore,#myScoreNumber,#maxScoreNumber {
+    width: 300px;
+    color: rgb(128, 38, 38);
+    font-family:'Cute Font', cursive;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    top: 750px; 
+    margin: auto;
+}
+
+#myScore{
+    left: -320px; 
+    right: 0px; 
+    bottom: 0px; 
+}
+
+#myScoreNumber{
+    left: -190px; 
+    right: 0px; 
+    bottom: 0px; 
+}
+
+
+
+
+
