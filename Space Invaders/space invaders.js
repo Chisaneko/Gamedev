@@ -26,7 +26,6 @@ function sound(src) {
 function startGame() {
     myGamePiece = new component(30, 30, "./Images/catship.png", 180, 50,"image");
     boopSound = new sound("./Sfx/catboop.mp3");
-    bgmSound = new sound("./Sfx/bgm.mp3")
     myGameArea.start();   
 }
 
