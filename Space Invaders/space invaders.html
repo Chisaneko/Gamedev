@@ -7,19 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Space Invaders</title>
     <link rel="stylesheet" href="./space invaders.css">
+    <link rel="preload" href="./space invaders.js" as="script" />
     
 </head>
 <body onload="startGame()">
+    
+<button onclick="playAudio()" type="button">Play Audio</button>
+<div><h1 id="myScore">SCORE: </h1></div>
+<div><h1 id="myScoreNumber">0000</h1></div>
 
+<div id="gameTitle"><h1 id="titleText"> <img id="titleImg" src="./Images/Title Cat.png">Cat Invaders</h1></div>
 
-<div id="gameTitle">
-    <h1 id="titleText"> <img id="titleImg" src="./Images/Title Cat.png">Cat Invaders</h1>
-</div>
-
-
+<div class="container"> <div class="slide"></div>
 <script src="./space invaders.js"></script>
 </body>
-
-
-
 </html>
