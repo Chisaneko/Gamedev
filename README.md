@@ -1,2 +1,2 @@
 # Gamedev
- Meu primeiro jogo para a cruso da UNIFAA
+ Meu primeiro jogo para a curso da UNIFAA
